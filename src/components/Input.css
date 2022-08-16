@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.entradas{
+    display: grid;
+    padding: 5px;
+    grid-gap: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: end;
+    padding-right: 15px;
+    font-size: 1.2em;
+    width: 100%;
+    -webkit-appearance: none;
+}

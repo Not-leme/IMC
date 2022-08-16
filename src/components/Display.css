@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.display{
+    height: 320px;
+    width: 235px;
+    border-radius:var(--bd-radius);
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr 3fr;
+    border: var(--bd-black);
+
+}
+
+.Numeros{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+}
+
+
